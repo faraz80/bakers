@@ -1,0 +1,61 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/df389cb5-101b-4f31-915f-b2370f628477.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 35px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 342px;
+  background-image: none;
+  width: 451px;
+  margin: 35px auto 60px;
+}
+
+.u-section-1 .u-label-1 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.u-section-1 .u-input-1 {
+  font-weight: 500;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-2 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.u-section-1 .u-input-2 {
+  font-weight: 500;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}

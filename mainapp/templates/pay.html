@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
+    <link rel="stylesheet" href="{% static 'css/pay.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static '/js/jquery-1.9.1.min.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static '/js/nicepage.js' %}"src="nicepage.js" defer=""></script>
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"url": "/"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="/">
+  </head>
+  <body class="u-body u-xl-mode" data-lang="en">
+    <section class="u-clearfix u-grey-60 u-section-1" id="sec-eefe">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-container-style u-expanded-width u-grey-25 u-group u-radius-37 u-shape-round u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-custom-font u-font-georgia u-text u-text-1">Total Amount need to Pay: {{ total }}</p>
+            <p class="u-custom-font u-font-georgia u-text u-text-default u-text-2">Please Select a payment Method</p>
+	    <p class="u-custom-font u-font-georgia u-text u-text-default u-text-2">
+
+		<input type="radio" id="0" name="0">
+  		<label for="0"> Paytm</label><br><br>
+
+  		<input type="radio" id="1" name="0">
+  		<label for="1">PayPal</label><br><br>
+
+  		<input type="radio" id="2" name="0">
+  		<label for="2">Debit card</label><br><br>
+
+  		<input type="radio" id="3" name="0">
+  		<label for="3">Credit card</label><br><br>
+
+  		<input type="radio" id="4" name="0">
+  		<label for="4">Netbanking</label><br><br>
+
+  		<input type="radio" id="5" name="0">
+  		<label for="5">Cash on Delivery</label></p><br><br>
+
+        <a onclick="myFunction()" class="u-border-black u-btn-round u-button-style u-custom-font u-font-georgia u-hover-palette-1-light-3 u-palette-3-light-3 u-radius-18 u-text-palette-1-dark-2 u-btn-1">PAY</a>
+        <script>
+          function myFunction() {
+            alert("Payment Successful!!! ");
+          }
+          </script>
+          </div>
+        </div>
+      </div>
+    </section> 
+</body></html>
