@@ -1,4 +1,5 @@
-﻿admin==0.0.1
+admin==0.0.1
+pypiwin32==223
 altgraph==0.17
 appdirs==1.4.4
 asgiref==3.5.0
