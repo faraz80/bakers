@@ -68,7 +68,6 @@ pyasn1-modules==0.2.8
 PyAutoGUI==0.9.52
 pycodestyle==2.6.0
 pyee==8.1.0
-pygame==2.0.1
 PyGetWindow==0.0.9
 pyinstaller==4.3
 pyinstaller-hooks-contrib==2021.2
